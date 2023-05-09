@@ -1,25 +1,49 @@
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+</style>
+
 <script>
 	export let name;
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+
+	<div class="container">
+		<header>
+			<img src="/images/logo.png" alt="Logo">
+			<h2>Disfruta de la mejor musica</h2>
+		</header>
+	</div>
+
 </main>
 
 <style>
+
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+
 	main {
-		text-align: center;
+		width: 100%;
+		height: 100vh;
+		background-image: url(/images/fondo.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+
 		padding: 1em;
-		max-width: 240px;
 		margin: 0 auto;
 	}
 
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
+
+
+	h2 {
+		color: black;
+		font-size: 1em;
 		font-weight: 100;
+		font-family: Roboto Mono;
 	}
 
 	@media (min-width: 640px) {
