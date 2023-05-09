@@ -1,4 +1,4 @@
-package com.example.tunejar
+package com.tunejar
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

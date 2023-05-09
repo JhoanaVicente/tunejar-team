@@ -1,4 +1,4 @@
-package com.example.tunejar
+package com.tunejar
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
