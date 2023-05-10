@@ -1,6 +1,7 @@
 <script>
 
     export let songs;
+    import Song from './song.svelte'
 </script>
 
 <div class="catalog">
