@@ -16,6 +16,7 @@
         color: white;
     }
     div {
+        padding: 10px;
         display: flex;
         flex-direction: column;
     }
