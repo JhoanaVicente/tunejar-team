@@ -5,4 +5,4 @@ import org.springframework.stereotype.Repository
 
 @Repository
 
-interface repositorioCanciones: JpaRepository<cancion, Long>
+interface RepositorioCanciones: JpaRepository<Cancion, Long>
