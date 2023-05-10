@@ -19,6 +19,6 @@
 
 <header>
     <img src="/images/logo.png" alt="Logo">
-    <h2>Disfruta de la mejor musica</h2>
+    <h2>Disfruta de la mejor musica!</h2>
 </header>
 
