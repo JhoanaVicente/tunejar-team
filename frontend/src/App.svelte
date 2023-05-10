@@ -1,50 +1,57 @@
-<style>
-	@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-</style>
 
 <script>
-	export let name;
+import Header from "./components/header.svelte"
 </script>
 
-<main>
 
 	<div class="container">
-		<header>
-			<img src="/images/logo.png" alt="Logo">
-			<h2>Disfruta de la mejor musica</h2>
-		</header>
+
+		<Header/>
+
+		<div class="hero-main">
+			<div>
+				<h1>Mis canciones</h1>
+			</div>
+
+			<div>
+				<h1>Catalogo</h1>
+			</div>
+
+		</div>
+
 	</div>
 
-</main>
 
 <style>
 
-	* {
-		margin: 0;
-		padding: 0;
-		box-sizing: border-box;
-	}
 
-
-	main {
+	.container{
 		width: 100%;
 		height: 100vh;
 		background-image: url(/images/fondo.png);
 		background-size: 100%;
 		background-repeat: no-repeat;
+	}
 
-		padding: 1em;
-		margin: 0 auto;
+
+	h1 {
+		color: white;
+		font-size: 2em;
+		font-weight: 400;
 	}
 
 
 
-	h2 {
-		color: black;
-		font-size: 1em;
-		font-weight: 100;
-		font-family: Roboto Mono;
+	.hero-main{
+		display: grid;
+		grid-template-columns: repeat(1fr, 1fr);
+		gap: 3%;
+
+
 	}
+
+
+
 
 	@media (min-width: 640px) {
 		main {
