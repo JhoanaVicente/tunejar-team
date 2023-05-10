@@ -4,15 +4,35 @@
     import Song from './song.svelte'
 </script>
 
-<div class="catalog">
+<section>
     <h1>Catalogo</h1>
-    <div>
-        {#each songs as song}
-          <Song/>
-
-
+    <div class="songs-list">
+        {#each songs as info}
+          <Song song={info}/>
         {/each}
     </div>
-</div>
+</section>
+
+<style>
+    h1 {
+        color: white;
+        font-size: 2em;
+        font-weight: 400;
+    }
+
+    section {
+        margin: 3%;
+        padding: 3%;
+        background-color: rgba(255,255,255,0.05);
+    }
+
+    .songs-list {
+        width: 100%;
+        display: flex;
+
+    }
+</style>
+
+
 
 

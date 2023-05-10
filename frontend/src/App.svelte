@@ -20,42 +20,19 @@
         }]
 </script>
 
-
 <div class="container">
-
     <Header/>
     <Catalog songs={songs}/>
-
 </div>
 
-
 <style>
-
-
     .container {
         width: 100%;
         height: 100vh;
         background-image: url(/images/fondo.png);
-        background-size: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
     }
-
-
-    h1 {
-        color: white;
-        font-size: 2em;
-        font-weight: 400;
-    }
-
-
-    .hero-main {
-        display: grid;
-        grid-template-columns: repeat(1fr, 1fr);
-        gap: 3%;
-
-
-    }
-
 
     @media (min-width: 640px) {
         main {
