@@ -5,7 +5,7 @@
 </script>
 
 <section>
-    <h1>Catalogo</h1>
+    <h1>Catálogo</h1>
     <div class="songs-list">
         {#each songs as info}
           <Song song={info}/>
@@ -18,6 +18,8 @@
         color: white;
         font-size: 2em;
         font-weight: 100%;
+        text-align: right;
+        padding-right: 5%;
     }
 
     section {
