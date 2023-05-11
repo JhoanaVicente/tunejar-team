@@ -5,9 +5,9 @@ import jakarta.persistence.*
 @Table(name ="musica")
 @Entity
 data class Cancion(
-    var coverImage: String,
-    var artista: String,
-    var nombreCancion: String,
+    var coverUrl: String,
+    var author: String,
+    var title: String,
     var generoMusical: String,
     var releaseYear: Int,
 
