@@ -17,7 +17,7 @@
     h1 {
         color: white;
         font-size: 2em;
-        font-weight: 400;
+        font-weight: 100%;
     }
 
     section {

@@ -9,7 +9,8 @@
 
 <style>
     img {
-        width: 150px;
+        width: 95px;
+        border-radius: 30%;
     }
 
     p {
