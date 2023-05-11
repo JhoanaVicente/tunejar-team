@@ -1,7 +1,7 @@
 package com.tunejar.controllers
 
 
-import com.tunejar.repositorio.Cancion
+import com.tunejar.repositorio.Songs
 import com.tunejar.repositorio.RepositorioCanciones
 import org.springframework.http.HttpStatus
 import org.springframework.web.bind.annotation.CrossOrigin
@@ -21,35 +21,35 @@ class CancionController(private val repositorioCanciones: RepositorioCanciones) 
     @GetMapping("/hello")
     fun hola(): String = "Hola desde el backend"
 
-    @GetMapping("/cancion")
-    fun allCancion(): List<Cancion?>? {
+    @GetMapping("/songs")
+    fun allCancion(): List<Songs?>? {
         return repositorioCanciones.findAll()
     }
 
-    @GetMapping("/cancion/{id}")
-    fun findCancion(@PathVariable id: Long): Cancion? {
-        return repositorioCanciones.findById(id).orElseThrow { CancionNotFoundException() }
+    @GetMapping("/songs/{id}")
+    fun findCancion(@PathVariable id: Long): Songs? {
+        return repositorioCanciones.findById(id).orElseThrow { SongsNotFoundException() }
     }
 
-    @PostMapping("/cancion")
-    fun addCancion(@RequestBody cancion: Cancion): Cancion? {
+    @PostMapping("/songs")
+    fun addCancion(@RequestBody cancion: Songs): Songs? {
         return repositorioCanciones.save(cancion)
     }
 
-    @PutMapping("/cancion")
-    fun updateCancionById(@RequestBody cancion: Cancion): Cancion? {
-        cancion.id?.let { repositorioCanciones.findById(it).orElseThrow { CancionNotFoundException() } }
+    @PutMapping("/songs")
+    fun updateCancionById(@RequestBody cancion: Songs): Songs? {
+        cancion.id?.let { repositorioCanciones.findById(it).orElseThrow { SongsNotFoundException() } }
         return repositorioCanciones.save(cancion)
     }
 
-    @DeleteMapping("/cancion/{id}")
-    fun deleteCancionById(@PathVariable id: Long): Cancion? {
-        val cancion: Cancion = repositorioCanciones.findById(id).orElseThrow { CancionNotFoundException() }
+    @DeleteMapping("/songs/{id}")
+    fun deleteCancionById(@PathVariable id: Long): Songs? {
+        val cancion: Songs = repositorioCanciones.findById(id).orElseThrow { SongsNotFoundException() }
         repositorioCanciones.deleteById(id)
         return cancion
     }
 }
 
-@ResponseStatus(code = HttpStatus.NOT_FOUND, reason = "cancion not found")
-class CancionNotFoundException: RuntimeException()
+@ResponseStatus(code = HttpStatus.NOT_FOUND, reason = "songs not found")
+class SongsNotFoundException: RuntimeException()
 

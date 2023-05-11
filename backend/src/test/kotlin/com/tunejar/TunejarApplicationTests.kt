@@ -1,7 +1,7 @@
 package com.tunejar
 
 
-import com.tunejar.repositorio.Cancion
+import com.tunejar.repositorio.Songs
 import com.tunejar.repositorio.RepositorioCanciones
 import org.hamcrest.Matchers.equalTo
 import org.hamcrest.Matchers.hasSize
@@ -57,22 +57,22 @@ class TunejarApplicationTests(@Autowired val mockMvc: MockMvc) {
 
     }
 private fun addTestCanciones() {
-    val canciones: List <Cancion> = listOf(
-        Cancion(
+    val canciones: List <Songs> = listOf(
+        Songs(
             "https://tse3.mm.bing.net/th?id=OIP.ruT15mxQwIgt8k_MgycTtQHaEK&pid=Api&P=0",
             "Fito y Fitipaldis",
             "Soldadito Marinero",
             "Pop Rock",
             2003
         ),
-        Cancion(
+        Songs(
             "https://tse3.mm.bing.net/th?id=OIP.BRnGT23SKPg7BH9N4pqqNwHaHa&pid=Api&P=0",
             "Maluma",
             "Felices los 4",
             "Salsa",
             2018
         ),
-        Cancion(
+        Songs(
             "https://tse4.mm.bing.net/th?id=OIP.hoVIUhPoLh608K9KdvW_BgHaEk&pid=Api&P=0",
             "Manolo García",
             "Insurrección",
