@@ -29,11 +29,12 @@
             coverUrl: "https://th.bing.com/th/id/R.2ea177a46023e4516925a49886051a0a?rik=IFOuBq5njNrKTQ&pid=ImgRaw&r=0"
         },
         {
-            title: "Candy Shop",
+            title: "Soldadito marinero",
             genre:"",
             year:"",
-            author: "50 cent",
-            coverUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/%28Portrait_of_Billie_Holiday_and_Mister%2C_Downbeat%2C_New_York%2C_N.Y.%2C_ca._Feb._1947%29_%28LOC%29_%285020400274%29_%28cropped%29.jpg/800px-%28Portrait_of_Billie_Holiday_and_Mister%2C_Downbeat%2C_New_York%2C_N.Y.%2C_ca._Feb._1947%29_%28LOC%29_%285020400274%29_%28cropped%29.jpg"
+            author: "Fito & fitipaldis",
+            coverUrl: "https://i.pinimg.com/originals/33/13/5b/33135bdd7301f77a09e3ccfca9a7de08.jpg"
+
         }]
 </script>
 

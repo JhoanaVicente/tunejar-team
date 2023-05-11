@@ -7,6 +7,7 @@
 <section>
     <h1>Catálogo</h1>
     <div class="songs-list">
+
         {#each songs as info}
           <Song song={info}/>
         {/each}

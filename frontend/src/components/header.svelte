@@ -5,7 +5,7 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        padding-top: 25px;
+        padding-top: 0.2em;
     }
 
     h2 {
