@@ -14,6 +14,7 @@ import org.springframework.test.web.servlet.MockMvc
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers.status
+import org.springframework.test.web.servlet.result.MockMvcResultHandlers.print
 
 
 
@@ -56,7 +57,7 @@ class TunejarApplicationTests(@Autowired val mockMvc: MockMvc) {
     }
 
     private fun addTestSongs() {
-        val canciones: List<Songs> = listOf(
+        val songs: List<Songs> = listOf(
             Songs(
                 "https://tse3.mm.bing.net/th?id=OIP.ruT15mxQwIgt8k_MgycTtQHaEK&pid=Api&P=0",
                 "Fito y Fitipaldis",
@@ -77,9 +78,12 @@ class TunejarApplicationTests(@Autowired val mockMvc: MockMvc) {
                 "Insurrección",
                 "Jangle Pop",
                 1986
-            ),
-            Songs.forEach(repositorioCanciones::save),
+            )
+
+        )
+            songs.forEach(repositorioCanciones::save)
     }
 }
+
 
 
