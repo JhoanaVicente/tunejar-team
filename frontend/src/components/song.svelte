@@ -1,5 +1,6 @@
 <script>
     export let song;
+    let Int;
     song.releaseYear = Int;
 </script>
 <div>

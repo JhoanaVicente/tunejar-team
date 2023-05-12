@@ -3,27 +3,7 @@
     import Catalog from "./components/catalog.svelte"
     import {onMount} from "svelte";
 
-<<<<<<< HEAD
 
-    let songs = []
-
-    onMount(() => {
-        fetch("http://localhost:9065/cancion")
-            .then(respuesta => respuesta.json())
-            .then( datos => songs = datos)
-    })
-=======
-    // esto son datos de prueba
-    // tendriamos que hacer una peticion al backend para pedir la
-    // informacion:
-    // GET localhost:9065/cancion
-    // {
-    //     nombreCancion: "La Macarena",
-    //     artista: "los del Rio",
-    //     coverUrl: "",
-    //     generoMusical: "",
-    //     releaseYear: ""
-    // }
     let songs = [ // esto tendria que venir del backend
         {
             title: "felises los 4",
@@ -47,7 +27,7 @@
             coverUrl: "https://i.pinimg.com/originals/33/13/5b/33135bdd7301f77a09e3ccfca9a7de08.jpg"
 
         }]
->>>>>>> 25ccf96ab4bbdfbce45ff3d5782c751d3a7d0023
+
 </script>
 
 <div class="container">
