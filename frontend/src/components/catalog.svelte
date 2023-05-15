@@ -1,5 +1,4 @@
 <script>
-
     export let songs;
     import Song from './song.svelte'
 </script>
@@ -32,7 +31,7 @@
     .songs-list {
         width: 100%;
         display: flex;
-
+        justify-content: space-around;
     }
 </style>
 
