@@ -1,7 +1,6 @@
 <script>
     export let song;
-    let Int;
-    song.releaseYear = Int;
+
 </script>
 <div>
     <img src={song.coverUrl} alt="caratula del disco">
@@ -13,20 +12,22 @@
 
 <style>
     img {
-        width: 110px;
-        border-radius: 30%;
+        width: 150px;
+        border-radius: 5%;
     }
 
     p {
         color: white;
         font-size: 0.7em;
         text-align: center;
-        line-height: 0.2em;
+        line-height: 0.1em;
     }
     div {
         padding: 10px;
         display: flex;
         flex-direction: column;
     }
+
+
 
 </style>
