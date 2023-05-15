@@ -5,6 +5,7 @@ import jakarta.persistence.*
 @Table(name ="musica")
 @Entity
 data class Songs(
+    @Lob
     var coverUrl: String,
     var author: String,
     var title: String,
