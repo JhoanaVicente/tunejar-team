@@ -22,10 +22,10 @@
     .container {
         width: 100%;
         height: 100vh;
-        background-image: url("https://hdwallpaperim.com/wp-content/uploads/2017/08/31/146588-cassette-jeans-denim-748x497.jpg");
+        background-image: url("https://wallpapers.com/images/hd/music-radio-cassette-digital-art-1886urinw9ejjgn7.jpg");
         background-size: cover;
         background-repeat: no-repeat;
-        background-blend-mode: overlay;
+        background-blend-mode: revert;
         background-color: cadetblue;
     }
 
