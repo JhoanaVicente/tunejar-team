@@ -9,10 +9,7 @@
     }
 
     h2 {
-        color: white;
-        font-size: 1em;
-        font-weight: 400;
-        text-align: center;
+        margin-right: 60px;
     }
 
 </style>
