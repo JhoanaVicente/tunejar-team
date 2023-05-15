@@ -22,7 +22,7 @@
     .container {
         width: 100%;
         height: 100vh;
-        background-image: url("https://e0.pxfuel.com/wallpapers/915/862/desktop-wallpaper-colorful-abstract-swirl-pattern-art.jpg");
+        background-image: url("https://c4.wallpaperflare.com/wallpaper/355/120/60/music-style-80s-style-illustration-hd-wallpaper-preview.jpg");
         /*background-image: url(/images/fondo.png);*/
         background-size: cover;
         background-repeat: no-repeat;
