@@ -18,7 +18,7 @@
 </style>
 
 <header>
-    <img src="/images/logo.png" alt="Logo">
+    <img src="/images/fonodo%20transparente.png" alt="Logo">
     <h2>Disfruta de la mejor musica!</h2>
 </header>
 
