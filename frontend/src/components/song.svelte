@@ -1,12 +1,7 @@
 <script>
     export let song;
-<<<<<<< HEAD
-
-
-=======
     let Int;
     song.releaseYear = Int;
->>>>>>> 196ee02b7edba2ecab2b2106f9aea835d23248b3
 </script>
 <div>
     <img src={song.coverUrl} alt="caratula del disco">
