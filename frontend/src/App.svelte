@@ -22,7 +22,7 @@
     .container {
         width: 100%;
         height: 100vh;
-        background-image: url("https://c4.wallpaperflare.com/wallpaper/355/120/60/music-style-80s-style-illustration-hd-wallpaper-preview.jpg");
+        background-image: url("https://hdwallpaperim.com/wp-content/uploads/2017/08/31/146588-cassette-jeans-denim-748x497.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-blend-mode: overlay;
