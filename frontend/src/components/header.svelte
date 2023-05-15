@@ -9,7 +9,7 @@
     }
 
     h2 {
-        color: black;
+        color: white;
         font-size: 1em;
         font-weight: 400;
         text-align: center;

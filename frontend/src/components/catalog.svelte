@@ -25,7 +25,7 @@
     section {
         margin: 3%;
         padding: 3%;
-        background-color: rgba(255,255,255,0.05);
+        /*background-color: rgba(255,255,255,0.05);*/
     }
 
     .songs-list {
