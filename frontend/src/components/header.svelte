@@ -6,7 +6,7 @@
         flex-direction: column;
         padding-top: 0.2em;
         margin-right: auto;
-margin-left: 40px;
+        margin-left: 40px;
 
     }
 
