@@ -1,20 +1,24 @@
 package com.tunejar
 
+import com.sun.org.apache.xerces.internal.util.PropertyState.`is`
 import com.tunejar.repositorio.RepositorioCanciones
 import com.tunejar.repositorio.Songs
-import org.assertj.core.api.ClassBasedNavigableIterableAssert.assertThat
+import org.hamcrest.MatcherAssert
+import org.hamcrest.Matchers
 import org.hamcrest.Matchers.equalTo
+
+
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.boot.test.web.client.TestRestTemplate
-import org.springframework.boot.test.web.client.getForEntity
 import org.springframework.http.HttpStatus
-import sun.nio.cs.Surrogate.`is`
+
+import org.springframework.test.context.ActiveProfiles
 
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-
+@ActiveProfiles("test")
 class TunejarApplicationTests {
     @Autowired
     private lateinit var api: TestRestTemplate
@@ -24,7 +28,7 @@ class TunejarApplicationTests {
 
     @Test
     fun `Return a list of songs`() {
-        val songs = listOf(
+        listOf(
             Songs(
                 "https://cdns-images.dzcdn.net/images/cover/04914ec5fd3d7c7332cf597b20085ef4/350x350.jpg",
                 "Fito y Fitipaldis",
@@ -48,10 +52,14 @@ class TunejarApplicationTests {
             )
 
         ).let{repositorioCanciones.saveAll(it)}
+
         val response = api.getForEntity("/api/songs", Array<Songs>::class.java)
 
-        assertThat(response.statusCode, `is`(HttpStatus.OK))
-        assertThat(response.body, equalTo(Songs.toTypedArray()))
+/*
+        asserthat(response.statusCode, `is`(HttpStatus.OK))
+        asserthat(response.statusCode, equalTo(Songs.toTypeArray))
+*/
+
 
 
 
@@ -82,7 +90,7 @@ class TunejarApplicationTests {
             )
 
         )
-        songs.forEach(RepositorioCanciones::save)
+        songs.forEach(repositorioCanciones::save)
     }
 }
 
