@@ -24,10 +24,10 @@
         width: 100%;
         height: 100vh;
         background-image: url("https://wallpapers.com/images/hd/music-radio-cassette-digital-art-1886urinw9ejjgn7.jpg");
-        background-size: cover;
         background-repeat: no-repeat;
         background-blend-mode: revert;
         background-color: cadetblue;
+        background-size: cover;
     }
 
     @media (min-width: 640px) {
