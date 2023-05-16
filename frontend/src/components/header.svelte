@@ -14,7 +14,6 @@
     img {
         margin-left: 35px;
         margin-top: 10px;
-        margin: right;
         margin-right: 50px;
         width: 365px;
     }
