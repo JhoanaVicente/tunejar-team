@@ -24,7 +24,7 @@
 <header>
 
     <div>
-        <img src="/images/fondo.png" alt="Logo">
+        <img src="/images/logo%20definitivo.png" alt="Logo">
     </div>
 </header>
 
