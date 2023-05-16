@@ -3,10 +3,7 @@
 <style>
     header{
         display: flex;
-        flex-direction: column;
-        padding-top: 0.2em;
-        margin-right: auto;
-        margin-left: 40px;
+        justify-content: flex-end;
     }
 
 
@@ -15,9 +12,11 @@
     }
 
     img {
-        width:180px;
-        margin-top:50px;
         margin-left: 35px;
+        margin-top: 10px;
+        margin: right;
+        margin-right: 50px;
+        width: 365px;
     }
 </style>
 
