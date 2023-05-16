@@ -17,7 +17,7 @@
     }
 
     p {
-        color: black;
+        color: white;
         font-weight: bold;
         font-size: 0.7em;
         text-align: center;
