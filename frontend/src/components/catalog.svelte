@@ -26,6 +26,9 @@
         margin: 3%;
         padding: 3%;
         /*background-color: rgba(255,255,255,0.05);*/
+        display: grid;
+        justify-items: start;
+        justify-content: start;
     }
 
     .songs-list {
