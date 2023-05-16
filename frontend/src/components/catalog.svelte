@@ -15,7 +15,7 @@
 
 <style>
     h1 {
-        color: white;
+        color: black;
         font-size: 2em;
         font-weight: 100%;
         text-align: right;
