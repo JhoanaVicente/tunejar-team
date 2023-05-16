@@ -12,7 +12,8 @@
 
 <style>
     img {
-        width: 150px;
+        width: 100px;
+        height: 100px;
         border-radius: 5%;
     }
 

@@ -4,37 +4,29 @@
 </script>
 
 <section>
-    <h1>Catálogo</h1>
     <div class="songs-list">
-
+    <h3 class="catalog">Catálogo</h3>
         {#each songs as info}
           <Song song={info}/>
         {/each}
     </div>
+    <h3 class="my-favorites">Mis<br>Favoritos</h3>
 </section>
 
 <style>
-    h1 {
+    h3 {
         color: white;
-        font-size: 2em;
         font-weight: 100%;
-        text-align: right;
-        padding-right: 5%;
     }
 
     section {
-        margin: 3%;
-        padding: 3%;
-        /*background-color: rgba(255,255,255,0.05);*/
         display: grid;
         justify-items: start;
-        justify-content: start;
+        margin-left: 100px;
     }
 
     .songs-list {
-        width: 100%;
         display: flex;
-        justify-content: space-around;
     }
 </style>
 
