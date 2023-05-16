@@ -1,6 +1,7 @@
 <script>
     import Header from "./components/header.svelte"
     import Catalog from "./components/catalog.svelte"
+    import Lista from "./components/Lista.svelte"
     import {onMount} from "svelte";
 
     let songs = []

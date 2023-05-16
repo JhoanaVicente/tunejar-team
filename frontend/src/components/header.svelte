@@ -10,10 +10,14 @@
 
     }
 
+
+    h2 {
+        margin-right: 60px;
+    }
+
     img {
         width:180px;
         margin-top:22px;
-
     }
 </style>
 
@@ -21,7 +25,6 @@
 
     <div>
         <img src="/images/fondo.png" alt="Logo">
-
     </div>
 </header>
 

@@ -17,7 +17,8 @@
     }
 
     p {
-        color: white;
+        color: black;
+        font-weight: bold;
         font-size: 0.7em;
         text-align: center;
         line-height: 0.1em;
