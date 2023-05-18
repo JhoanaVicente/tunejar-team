@@ -1,5 +1,6 @@
 <script>
     export let song;
+    import Heart from "./heart.svelte"
 
 </script>
 <div>
@@ -8,6 +9,7 @@
     <p>{song.author}</p>
     <p>{song.genre}</p>
     <p>{song.releaseYear}</p>
+    <Heart/>
 </div>
 
 <style>
@@ -30,4 +32,5 @@
         flex-direction: column;
         align-items: center;
     }
+
 </style>
