@@ -81,7 +81,7 @@ class TunejarApplicationTests(@Autowired val mockMvc: MockMvc) {
             )
 
         )
-            songs.forEach(repositorioCanciones::save)
+            songs.forEach(repositorioCanciones::saveAll)
     }
 }
 
