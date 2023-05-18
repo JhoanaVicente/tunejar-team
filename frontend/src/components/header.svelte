@@ -1,4 +1,6 @@
-<script></script>
+<script>
+
+</script>
 
 <style>
     header{
@@ -6,23 +8,20 @@
         justify-content: flex-end;
     }
 
-
     h2 {
         margin-right: 60px;
     }
 
     img {
         margin-left: 35px;
-        margin-top: 10px;
         margin-right: 50px;
-        width: 365px;
+        width: 300px;
     }
 </style>
 
 <header>
-
-    <div>
-        <img src="/images/logo%20definitivo.png" alt="Logo">
-    </div>
+    <img src="/images/logo%20definitivo.png" alt="Logo">
 </header>
+
+
 

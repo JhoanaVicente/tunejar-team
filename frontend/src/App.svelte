@@ -1,7 +1,6 @@
 <script>
     import Header from "./components/header.svelte"
     import Catalog from "./components/catalog.svelte"
-    import Lista from "./components/Lista.svelte"
     import {onMount} from "svelte";
 
     let songs = []
@@ -11,7 +10,6 @@
             .then(respuesta => respuesta.json())
             .then(datos => songs = datos)
     })
-
 </script>
 
 <div class="container">
@@ -23,7 +21,7 @@
     .container {
         width: 100%;
         height: 100vh;
-        background-image: url("https://wallpapers.com/images/hd/music-radio-cassette-digital-art-1886urinw9ejjgn7.jpg");
+        background-image: url("/images/BG TUNEJAR.png");
         background-repeat: no-repeat;
         background-blend-mode: revert;
         background-color: cadetblue;
