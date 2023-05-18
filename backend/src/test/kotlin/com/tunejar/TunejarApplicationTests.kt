@@ -49,13 +49,15 @@ class TunejarApplicationTests {
             )
        ).let {repositorioCanciones.saveAll(it)}
 
+
         val response = api.getForEntity("/api/songs", Array<Songs>::class.java);
 
         assertThat(response.statusCode, `is`(HttpStatus.OK))
         assertThat(response.body, equalTo(songs.toTypedArray()))
+
+
+
     }
-
-
 }
 
 

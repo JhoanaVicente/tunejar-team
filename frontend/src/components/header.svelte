@@ -1,25 +1,34 @@
-<script></script>
+<script>
+
+</script>
 
 <style>
     header{
         display: flex;
+<<<<<<< HEAD
         align-items: center;
         flex-direction: column;
         padding-top: 0.2em;
 
+=======
+        justify-content: flex-end;
+>>>>>>> 4ab16014dd5d26636d6764049d3fd5f7aa4e0273
     }
 
     h2 {
-        color: black;
-        font-size: 1em;
-        font-weight: 400;
-        text-align: center;
+        margin-right: 60px;
     }
 
+    img {
+        margin-left: 35px;
+        margin-right: 50px;
+        width: 300px;
+    }
 </style>
 
 <header>
-    <img src="/images/logo.png" alt="Logo">
-    <h2>Disfruta de la mejor musica!</h2>
+    <img src="/images/logo%20definitivo.png" alt="Logo">
 </header>
+
+
 

@@ -12,12 +12,14 @@
 
 <style>
     img {
-        width: 150px;
+        width: 100px;
+        height: 100px;
         border-radius: 5%;
     }
 
     p {
         color: white;
+        font-weight: bold;
         font-size: 0.7em;
         text-align: center;
         line-height: 0.1em;
@@ -26,8 +28,6 @@
         padding: 10px;
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
-
-
-
 </style>
