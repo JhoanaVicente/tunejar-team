@@ -31,26 +31,29 @@ class TunejarApplicationTests {
                 "Fito y Fitipaldis",
                 "Soldadito Marinero",
                 "Pop Rock",
-                2003
+                2003,
+                1
             ),
             Songs(
                 "https://tse3.mm.bing.net/th?id=OIP.BRnGT23SKPg7BH9N4pqqNwHaHa&pid=Api&P=0",
                 "Maluma",
                 "Felices los 4",
                 "Salsa",
-                2018
+                2018,
+                2
             ),
             Songs(
                 "https://i.discogs.com/fYgMzw1OiJ8ld9SecrRgxol07e6vq1QDXKm7hKgQ1pg/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwOTg3/MTczLTE2MzY5NzQ2/ODgtMTk5MS5qcGVn.jpeg",
                 "Manolo García",
                 "Insurrección",
                 "Jangle Pop",
-                1986
+                1986,
+                3
             )
        ).let {repositorioCanciones.saveAll(it)}
 
 
-        val response = api.getForEntity("/api/songs", Array<Songs>::class.java);
+        val response = api.getForEntity("/songs", Array<Songs>::class.java);
 
         assertThat(response.statusCode, `is`(HttpStatus.OK))
         assertThat(response.body, equalTo(songs.toTypedArray()))
