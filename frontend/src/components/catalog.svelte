@@ -1,7 +1,6 @@
 <script>
     export let songs;
     import Song from './song.svelte'
-    import List from './list.svelte'
 </script>
 
 <section>
