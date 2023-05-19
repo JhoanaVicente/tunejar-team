@@ -19,7 +19,7 @@
 <style>
     h3 {
         color: white;
-        font-weight: 100%;
+        font-weight: 50;
     }
 
     section {
