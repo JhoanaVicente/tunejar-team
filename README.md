@@ -22,20 +22,19 @@
 
 # Metodología
 
-  y cada paso que sé ISO 
-  DOCUMENTACIÓN 
-  CREAR REPOSITORIO 
-  CON CARPETAS DE BACKEND 
-  FRONTED EN IntelliJ.
+  Y cada paso que sé hizo  
+  Crear repositorio
+  Con carpetas de Backend 
+  Frontend en IntelliJ.
 
 
-# Comenzamos con crear primero 
+# Comenzamos creando primero: 
 
-  desde IntelliJ Ultimate IDEA (foto de Notion/Apuntes/Cómo crear
+  Desde IntelliJ Ultimate IDEA se crea un proyecto de Kotlin + Spring Boot con IntelliJ Ultimate IDEA.
   
   ![imagen](https://github.com/JhoanaVicente/tunejar-team/assets/126073882/c3956596-6f2a-461b-8f17-785fb1f4767a)
 
-   un proyecto de Kotlin + Spring Boot con IntelliJ Ultimate IDEA)
+   
 
 
 # En la lista de dependencias marcamos las siguientes:
@@ -48,7 +47,7 @@
 
 # Dentro del proyecto
 
-  encima de su nombre damos click derecho 
+  Encima de su nombre damos click derecho 
   creamos dos carpetas DIRECTOR Y 
   uno para Fronted y otro para Backend.
   (Se recomienda primero definir la carpeta Backend porque es la que por default aparece.)
