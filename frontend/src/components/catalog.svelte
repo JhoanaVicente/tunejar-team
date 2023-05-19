@@ -6,12 +6,10 @@
 
 <section>
     <div class="songs-list">
-        <h3 class="catalog">Catálogo</h3>
-            {#each songs as info}
-                <Song song={info}/>
-            {/each}
+        {#each songs as info}
+            <Song song={info}/>
+        {/each}
     </div>
-    <List/>
 </section>
 
 <style>
