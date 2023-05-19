@@ -12,9 +12,11 @@ data class Songs(
     var genre: String,
     var releaseYear: Int,
 
+
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
     @Column(name = "Id", nullable = false)
     var id:Long? = null
 )
+data class MiLista(val songs: Songs)
 
