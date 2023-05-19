@@ -17,8 +17,9 @@ data class Songs(
     @GeneratedValue (strategy = GenerationType.IDENTITY)
     @Column(name = "Id", nullable = false)
     var id:Long? = null
-)
-data class MiLista(val songs: Songs
 
 )
+
+
+
 
