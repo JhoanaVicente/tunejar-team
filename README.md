@@ -41,6 +41,11 @@
 # Trello:
 ##
    https://trello.com/b/H5EOlSn6/tunejar
+   
+# Canva: 
+## 
+https://www.canva.com/design/DAFjWHxOKNM/1yTiwkLqEYkDTdyGLq4nVg/edit?utm_content=DAFjWHxOKNM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
  
 
 
