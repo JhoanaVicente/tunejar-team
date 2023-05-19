@@ -5,9 +5,6 @@
 <style>
     header{
         display: flex;
-        align-items: center;
-        flex-direction: column;
-        padding-top: 0.2em;
         justify-content: flex-end;
 
 
@@ -15,6 +12,7 @@
         flex-direction: column;
         padding-top: 0.2em;
         justify-content: flex-end;
+
 
     }
 
@@ -23,9 +21,8 @@
     }
 
     img {
-        margin-left: 35px;
-        margin-right: 50px;
         width: 300px;
+        margin-right: 40px;
     }
 </style>
 

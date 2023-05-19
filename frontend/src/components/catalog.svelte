@@ -1,18 +1,14 @@
 <script>
     export let songs;
     import Song from './song.svelte'
+    import List from './list.svelte'
 </script>
 
 <section>
     <div class="songs-list">
-        <h3 class="catalog">Catálogo</h3>
-            {#each songs as info}
-                <Song song={info}/>
-            {/each}
-    </div>
-
-    <div>
-    <h3 class="my-favorites">Mi<br>Lista</h3>
+        {#each songs as info}
+            <Song song={info}/>
+        {/each}
     </div>
 </section>
 
