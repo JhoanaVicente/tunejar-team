@@ -18,5 +18,5 @@ data class Songs(
     @Column(name = "Id", nullable = false)
     var id:Long? = null
 )
-data class MiLista(val songs: Songs)
+
 

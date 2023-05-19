@@ -13,7 +13,6 @@ import org.springframework.http.HttpStatus
 import org.springframework.test.context.ActiveProfiles
 
 
-
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @ActiveProfiles("test")
 class TunejarApplicationTests {
@@ -50,13 +49,10 @@ class TunejarApplicationTests {
        ).let {repositorioCanciones.saveAll(it)}
 
 
-        val response = api.getForEntity("/api/songs", Array<Songs>::class.java);
+        val response = api.getForEntity("/songs", Array<Songs>::class.java)
 
         assertThat(response.statusCode, `is`(HttpStatus.OK))
-        assertThat(response.body, equalTo(songs.toTypedArray()))
-
-
-
+        assertThat(response.body?.toList(), equalTo(songs))
     }
 }
 
